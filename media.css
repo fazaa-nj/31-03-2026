@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*mobile/HP*/
+@media only screen and (min-width:480px) {
+   body {
+   background-color: beige;
+   }
+   h1 {
+    font-size: x-large;
+   }
+    body {
+        font-style: italic;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width:768px) {
+    body {
+        background-color: rgb(185, 212, 237);
+    }
+    body {
+        color: darkblue;
+    }
+}
+
+/*laptop/PC*/
+@media only screen and (min-width:1024px) {
+    body {
+       background-color: aqua;
+    }
+    body {
+        font-size: small;
+    }
+    body {
+        color: rgb(100, 97, 97);
+    }
+}
